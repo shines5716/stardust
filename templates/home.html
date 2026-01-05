@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Star Classification</title>
+</head>
+<body>
+    <h2>Star Classification Form</h2>
+
+    <form action="/submit" method="POST">
+        <label>i:</label><br>
+        <input type="number" step="any" name="i" required><br><br>
+
+        <label>z:</label><br>
+        <input type="number" step="any" name="z" required><br><br>
+
+        <label>modelFlux_z:</label><br>
+        <input type="number" step="any" name="modelFlux_z" required><br><br>
+
+        <label>petroRad_g:</label><br>
+        <input type="number" step="any" name="petroRad_g" required><br><br>
+
+        <label>petroRad_r:</label><br>
+        <input type="number" step="any" name="petroRad_r" required><br><br>
+
+        <label>petroFlux_z:</label><br>
+        <input type="number" step="any" name="petroFlux_z" required><br><br>
+
+        <label>petroR50_u:</label><br>
+        <input type="number" step="any" name="petroR50_u" required><br><br>
+
+        <label>petroR50_g:</label><br>
+        <input type="number" step="any" name="petroR50_g" required><br><br>
+
+        <label>petroR50_i:</label><br>
+        <input type="number" step="any" name="petroR50_i" required><br><br>
+
+        <label>petroR50_r:</label><br>
+        <input type="number" step="any" name="petroR50_r" required><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
